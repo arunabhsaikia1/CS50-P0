@@ -11,6 +11,11 @@ li {
     font-family: Arial, sans-serif;
 }
 
+#l1 {
+    float: left;
+    font-family: Arial, sans-serif;
+}
+
 li a {
     display: block;
     color: black;
@@ -74,19 +79,23 @@ ul, .container, .container-1 {
     background-color: #357ae8;
 }
 
+h3 {
+    color: orangered;
+}
 .container-1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: inline-grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center
 }
 
 .container-1 div {
-    background-color: green;
-    font-size: 20px;
+    background-color: white;
+    font-size: 18px;
     margin: 10px;
     padding: 20px;
     width: 700px;
     height: 20px;
+    align-items: center;
 }
 
 .container-2 {
