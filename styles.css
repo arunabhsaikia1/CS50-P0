@@ -60,6 +60,14 @@ h1 {
     outline: none;
 }
 
+.search-bar-1 {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    outline: none;
+}
+
 .search-button {
     margin-top: 10px;
     padding: 10px 20px;
