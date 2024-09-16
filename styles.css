@@ -31,7 +31,7 @@ li a:hover {
 form {
     display: flex;
     flex-direction: column; /* Stack elements vertically */
-    align-items: centre; /* Align elements to the start */
+    align-items: center; /* Align elements to the start */
 }
 
 input[type="text"] {
